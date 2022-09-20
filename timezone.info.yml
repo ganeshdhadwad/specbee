@@ -1,0 +1,7 @@
+name: Timezone (Specbee Assignment)
+type: module
+description: Timezone (As a user, I should be able to see the Site location and the current time for the location)
+core_version_requirement: ^8 || ^9
+dependencies:
+  - drupal:block
+package: Custom

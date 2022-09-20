@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Allows to pass the variables to the template file.
+ */
+
+/**
+ * Implement hook_theme().
+ */
+function timezone_theme($existing, $type, $theme, $path) {
+  return [
+    'timezone_template' => [
+      'variables' => [
+        'country' => NULL,
+        'city' => NULL,
+        'time' => NULL,
+      ],
+    ],
+  ];
+}
